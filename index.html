@@ -20,7 +20,9 @@
       background="transparent"
       speed="1"
       style="width: 1680px; height: 945px; cursor: pointer;"
-      onclick="this.play() : this.pause()"
+      loop="false"
+      autoplay="false"
+      onclick="this.isPaused ? this.play() : this.pause();"
     ></lottie-player>
   </body>
 </html>
